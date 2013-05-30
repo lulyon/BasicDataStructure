@@ -9,7 +9,7 @@
 
 void *vegaMalloc(size_t size)
 {
-  return malloc(size);
+  	return malloc(size);
 }
 void vegaFree(void *ptr)
 {
